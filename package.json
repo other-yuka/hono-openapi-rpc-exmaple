@@ -1,17 +1,23 @@
 {
-  "name": "hono-openapi-rpc-exmaple",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "tsx watch src/index.ts"
-  },
-  "dependencies": {
-    "@hono/node-server": "^1.13.7",
-    "hono": "^4.6.12"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.17",
-    "tsx": "^4.7.1"
-  }
+	"name": "hono-openapi-rpc-exmaple",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/server.ts"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.13.7",
+		"hono": "^4.6.12"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@commitlint/cli": "^19.6.0",
+		"@commitlint/config-conventional": "^19.6.0",
+		"@secretlint/secretlint-rule-preset-recommend": "^9.0.0",
+		"@types/node": "^22.10.1",
+		"lefthook": "^1.8.5",
+		"secretlint": "^9.0.0",
+		"tsx": "^4.7.1"
+	}
 }
